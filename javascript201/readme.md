@@ -47,7 +47,8 @@ The most common way is through iteration using loops.
 
 // Can you count down in an array? Log the numbers in seconds, starting with 10.
 var seconds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
+```
+``` JavaScript
 //Iterating is used for than just listing elements, you will often want to modify these elements. 
 
 var toBeDoubled = [1, 2, 5, 7, 4]
@@ -78,7 +79,8 @@ While arrays are stored to use data, objects store data in such a way that meani
     make: "HP",
     size: 17,
 }
-
+```
+```JavaScript
 //Consider the object myCar.  
 
 var myCar = {
@@ -108,3 +110,5 @@ var myOrder = {
     size: 'tall',
     drink: 'Pumpkin Spice Latte'
 }
+
+//log the order details.
