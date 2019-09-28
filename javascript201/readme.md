@@ -14,7 +14,7 @@ Copy the following set of expressions into a REPL or directly into your Chrome c
 
 ```JavaScript
 // Declare an array
-var colors = [black, white, red, blue, yellow]
+var colors = ['black', 'white', 'red', 'blue', 'yellow']
 
 // Find the length of the array
 colors.length
