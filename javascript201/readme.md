@@ -59,7 +59,8 @@ var toBeDoubled = [1, 2, 5, 7, 4]
 While arrays are stored to use data, objects store data in such a way that meaning can be interpreted based on the key a value is assigned to.
 
 ```JavaScript
-//Create variable named me set to an object with the values firstName, lastName, and hobbies. consider the data types that will need to be used for each value.
+//Create variable named me set to an object with the values firstName, lastName, and hobbies. 
+//Consider the data types that will need to be used for each value.
 ```
 
 Consider each of the following objects. 
