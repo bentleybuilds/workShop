@@ -124,7 +124,7 @@ Copy the following lines of code into a repl.
 // The string of "9" is greater than the number 8
 "9" > 8
 
-// The number 9 loosely equals the string "9"
+// The number 13 loosely equals the string "13"
 13 == "13"
 
 // the number 0 loosely equals the boolean false
