@@ -46,7 +46,7 @@ The most common way is through iteration using loops.
 ```JavaScript
 
 // Can you count down in an array? Log the numbers in seconds, starting with 10.
-var seconds = ['zero','one','two','three','four','five','six','seven','eight','nine',ten']
+var seconds = ['zero','one','two','three','four','five','six','seven','eight','nine','ten']
 ```
 ``` JavaScript
 //Iterating is used for than just listing elements, you will often want to modify these elements. 
