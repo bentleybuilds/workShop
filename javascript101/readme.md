@@ -139,13 +139,13 @@ Copy the following lines of code into a repl.
 
 #### Part 4: Functions 
 
-1. Write a function called multiple that takes two parameters (both numbers) and returns the product of those two numbers.
+1. Write a function called multiply that takes two parameters (both numbers) and returns the product of those two numbers.
 
-2. Write a function called fullName that takes 3 parameters, all strings, a first name, a middle name and a last name, and returns a full name with spaces in the correct place
+2. Write a function called getFullName that takes 3 parameters, all strings, a first name, a middle name and a last name, and returns a full name with spaces in the correct place
 - ex inputs: 'Cyntoia', 'Renee', 'Washington'
 - output: 'Cyntoia Renee Washington' 
 
-3. Write a function called greeting that takes a name and returns a personalized greeting. 
+3. Write a function called greet that takes a name and returns a personalized greeting. 
 - ex input: 'Jade'
 - ex output: 'Top of the mornin' Jade!'
 
