@@ -52,7 +52,7 @@ While arrays are used to store data, as a developer, you will often need to acce
 The most common way is through iteration using loops.
 
 ``` JavaScript
-//Iterating is used for than just listing elements, you will often want to modify these elements. 
+//Iterating is used for more than just listing elements, you will often want to modify each element in an array. 
 
 var toBeDoubled = [1, 2, 5, 7, 4]
 //Log each number doubled.
@@ -90,7 +90,7 @@ var eyes = {
 ```JavaScript
 var computer = {
     model: "Omen",
-    make: "HP",
+    make: HP,
     size: 17,
 }
 ```
