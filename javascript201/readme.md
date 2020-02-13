@@ -10,32 +10,40 @@ Before getting started, make sure that you have a JavaScript console open (like 
  
 #### Part 1: Arrays in JavaScript 
 
-Copy the following set of expressions into a REPL or directly into your Chrome console.
+
+Step 1: Declare a variable called colorArray and set it to an empty array.
+
+Step 2: Re-assign colorArray to an array that has two elements in it. A string with the value: Black, and a string with the value: White. Use console.log to log colorArray to the console.
+
+Step 3: Log the length of colorArray.
+
+Step 4: Consider what: 
 
 ```JavaScript
-// Declare an array
-var colors = ['black', 'white', 'red', 'blue', 'yellow']
-
-// Find the length of the array
-colors.length
-
-// What will colors[5] log to the console?
-colors[5]
+console.log(colors[colors.length])
 ```
+will log to the console?
 
 Array Methods: the following expressions illustrate some of the basic methods used to manipulate arrays.
 
-// Use the following methods to alter an array: .push, .pop, .shift, .unshift .
+Use the following methods to alter an colorArray: .push, .pop, .shift, .unshift.
+
+Step 5: Add 'Orange' to the beginning of colorArray.
+
+Step 6: Add 'Purple' and 'Green' to the end of the sizes array.   
+
+Step 7: Consider what: 
 
 ```JavaScript
-var sizes = ['small', 'medium', 'large']
-// Add 'extra small' to the beginning of the sizes array
+console.log(colors[3])
+```
+will log to the console?
 
-// Add 'extra large' to the end of the sizes array.   
+Step 8: Using .unshift and .pop, return colorArray to:
+```JavaScript
+['Black','White']
+```
 
-// Change the sizes array back to the original content
-
-``` 
 
 #### Part 2: Iterating Over Arrays
 
@@ -43,17 +51,19 @@ While arrays are used to store data, as a developer, you will often need to acce
 
 The most common way is through iteration using loops.
 
-```JavaScript
-
-// Can you count down in an array? Log the numbers in seconds, starting with 10.
-var seconds = ['zero','one','two','three','four','five','six','seven','eight','nine','ten']
-```
 ``` JavaScript
 //Iterating is used for than just listing elements, you will often want to modify these elements. 
 
 var toBeDoubled = [1, 2, 5, 7, 4]
 //Log each number doubled.
 ```
+
+```JavaScript
+
+// Can you count down in an array? Log the numbers in seconds, starting with 10.
+var seconds = ['zero','one','two','three','four','five','six','seven','eight','nine','ten']
+```
+
 #### Part 3: Objects in JavaScript
 
 While arrays are stored to use data, objects store data in such a way that meaning can be interpreted based on the key a value is assigned to.
@@ -67,18 +77,18 @@ Consider each of the following objects.
 Can you correct the syntax?
 
 ```JavaScript
-[
-    name: 'Jeff',
-    age: 34
+var user = [
+    userName: 'Jessica',
+    userAge: 32
 ]
 ```
 ```JavaScript
-{
+var eyes = {
     "color": "blue"
 }
 ```
 ```JavaScript
-{
+var computer = {
     model: "Omen",
     make: "HP",
     size: 17,
@@ -88,9 +98,9 @@ Can you correct the syntax?
 //Consider the object myCar.  
 
 var myCar = {
-    make: 'Nissan',
-    model: 'X-Terra',
-    color: 'Green'
+    make: 'Ford',
+    model: 'Taurus',
+    color: 'Silver'
 }
 
 
@@ -98,7 +108,7 @@ var myCar = {
 // "My car is a [color] [make] [model]" 
 // by accessing these properties from the object?
 
-// Add the property [year] and set it to 2005, without redeclaring the object.
+// Add the property [year] and set it to 1995, without redeclaring the object.
 
 ```
 
@@ -106,13 +116,16 @@ var myCar = {
 
 Objects do not have length and their properties are not in order. Yet sometimes we still want to access each property.
 
+
+Consider the object customerOrder
 ```JavaScript
-// Consider the object myOrder
-
-var myOrder = {
-    customer: 'Jeff',
-    size: 'tall',
-    drink: 'Pumpkin Spice Latte'
+var customerOrder = {
+    customerName: 'Jeff',
+    orderedItem: 'Blanket',
+    size: 'Extra Large',
+    cost: 68
 }
+```
+Step 1: Declare a variable named "orderDetails" and set it to an empty array.
 
-//log the order details.
+Step 2: Use a "For in" loop to populate orderDetails with each value.
