@@ -69,8 +69,8 @@ var seconds = ['zero','one','two','three','four','five','six','seven','eight','n
 While arrays are stored to use data, objects store data in such a way that meaning can be interpreted based on the key a value is assigned to.
 
 ```JavaScript
-//Create variable named me set to an object with the values firstName, lastName, and hobbies. 
-//Consider the data types that will need to be used for each value.
+//Create variable named me set to an object with the keys: firstName, lastName, and hobbies. 
+//Set the values with your own information. Consider the data types that will need to be used for each value.
 ```
 
 Consider each of the following objects. 
@@ -104,7 +104,7 @@ var myCar = {
 }
 
 
-// can you log a string that reads: 
+// Log a string that reads: 
 // "My car is a [color] [make] [model]" 
 // by accessing these properties from the object?
 
