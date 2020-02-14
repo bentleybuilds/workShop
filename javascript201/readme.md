@@ -11,35 +11,35 @@ Before getting started, make sure that you have a JavaScript console open (like 
 #### Part 1: Arrays in JavaScript 
 
 
-Step 1: Declare a variable called colorArray and set it to an empty array.
+Step 1: Declare a variable called colors and set it to an empty array.
 
-Step 2: Re-assign colorArray to an array that has two elements in it. A string with the value: Black, and a string with the value: White. Use console.log to log colorArray to the console.
+Step 2: Re-assign colors to an array that has two elements in it. A string with the value: Black, and a string with the value: White. Use console.log to log colors to the console.
 
-Step 3: Log the length of colorArray.
+Step 3: Log the length of colors.
 
-Step 4: Consider what: 
+Step 4: Consider what will log to the console?: 
 
 ```JavaScript
 console.log(colors[colors.length])
 ```
-will log to the console?
+
 
 Array Methods: the following expressions illustrate some of the basic methods used to manipulate arrays.
 
-Use the following methods to alter an colorArray: .push, .pop, .shift, .unshift.
+Use the following methods to alter an colors: .push, .pop, .shift, .unshift.
 
-Step 5: Add 'Orange' to the beginning of colorArray.
+Step 5: Add 'Orange' to the beginning of colors.
 
-Step 6: Add 'Purple' and 'Green' to the end of the sizes array.   
+Step 6: Add 'Purple' and 'Green' to the end of the colors array.   
 
-Step 7: Consider what: 
+Step 7: Consider what will log to the console?: 
 
 ```JavaScript
 console.log(colors[3])
 ```
-will log to the console?
 
-Step 8: Using .unshift and .pop, return colorArray to:
+
+Step 8: Using .unshift and .pop, return colors to:
 ```JavaScript
 ['Black','White']
 ```
