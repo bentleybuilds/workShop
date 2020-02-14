@@ -39,7 +39,7 @@ console.log(colors[3])
 ```
 
 
-Step 8: Using .unshift and .pop, return colors to:
+Step 8: Using the above methods, return colors to:
 ```JavaScript
 ['Black','White']
 ```
